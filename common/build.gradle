@@ -1,0 +1,3 @@
+plugins {
+    id 'org.a04t.java_repo.java-library-conventions'
+}
