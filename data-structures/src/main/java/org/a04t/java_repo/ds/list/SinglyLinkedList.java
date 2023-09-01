@@ -1,7 +1,9 @@
 package org.a04t.java_repo.ds.list;
 
+import lombok.Data;
 import org.a04t.java_repo.common.SLLNode;
 
+@Data
 public class SinglyLinkedList {
 
     SLLNode head;
@@ -16,14 +18,6 @@ public class SinglyLinkedList {
 
     public int size() {
         return this.length;
-    }
-
-    public SLLNode getHead() {
-        return head;
-    }
-
-    public void setHead(SLLNode head) {
-        this.head = head;
     }
 
     public SinglyLinkedList addFirst(int data) {
