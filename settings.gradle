@@ -12,5 +12,6 @@ plugins {
 
 rootProject.name = 'java-repo'
 include 'common'
-include 'data-structures'
+include ('data-structures', 'algorithms')
+include 'algorithms'
 
